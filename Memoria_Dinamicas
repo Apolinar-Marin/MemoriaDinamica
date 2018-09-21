@@ -1,0 +1,30 @@
+clase  memDinamica :
+    __lista = []
+
+    def  __init__ ( self , list ):
+    	self .__ lista =  list
+
+    def  getAutos ( self ):
+        volverse a  sí mismo .__ lista
+
+    def  recorrerArreglo ( self ):
+        para x en  self .getAutos ():
+            print ( self .getAutos (). index (x) + 1 , x)
+
+    def  agregarelementoarray ( self , elemento ):
+        self .__ lista.append (elemento)
+
+    def  ordenarLista ( self ):
+    	self .__ lista.sort ()
+
+    def  eliminarNElementos ( self , num ):
+    	self .__ lista.pop (num)
+
+    def  lavadoElemento ( self , elemento ):
+    	self .__ lista.remove (elemento)
+
+    def  insertarNPosicion ( self , num , elemento ):
+    	self .__ lista.insert (num, elemento)
+
+    def  imprimirLista ( self ):
+    	imprimir ( self .__ lista)
